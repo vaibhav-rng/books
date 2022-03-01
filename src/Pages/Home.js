@@ -5,6 +5,7 @@ function Home() {
   return (
     <>
       <Navigation/>
+      <h1>heyy</h1>
     </>
   )
 }
