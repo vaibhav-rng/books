@@ -13,10 +13,12 @@ function Navigation() {
             <div className='hidden md:flex'><a href="">Catagories</a> </div>
           </div>
             <div className=' flex items-center'> <SearchIcon/> <input className=' outline-2  items-end outline-yellow-100 p-1 -mt-1 text-center rounded-md ' type="search" name="" placeholder='Search book'/> <div className=" absolute top-1" > </div> </div>
-            <button className='lg:hidden' type=""><MenuSharpIcon/></button> 
-            
-           
+            <button className='md:hidden' type=""><MenuSharpIcon/></button> 
           </div> 
+          <div className='md:hidden'>
+            <a className='block' href="">Contact us</a>
+            <a className='block' href="">Catagories</a>
+          </div>
         </nav>
     </div>
   )
