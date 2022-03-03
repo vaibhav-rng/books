@@ -17,13 +17,18 @@ function Navigation() {
             <div className='hidden md:flex hover:bg-black p-2'><a href="">Catagories</a> </div>
           </div>
           
-            <div className=' flex  items-center lg:mr-36  pt-1'><div className=' absolute hidden md:flex'><SearchIcon fontSize='large' color="action"/></div>  <input className=' outline-2  items-end  md:px-28 p-1 -mt-1 text-center rounded-md ' type="search" name="" placeholder='Search book'/> <div className=" absolute top-1" > </div> </div>
+            <div className=' hidden  md:flex  items-center lg:mr-36  pt-1'><div className=' absolute hidden md:flex'><SearchIcon fontSize='large' color="action"/></div>  <input className=' outline-2  items-end  md:px-28 p-1 -mt-1 text-center rounded-md ' type="search" name="" placeholder='Search book'/> <div className=" absolute top-1" > </div> </div>
             <div className=' flex items-center bg-black px-4 lg:mr-3'> <a href="">Login/register</a></div> 
           </div>
           
+    	    <div class="">
+            <hr/>
+          <div className='md:hidden flex justify-center items-center px-16 py-2'><div className=' absolute hidden md:flex'><SearchIcon fontSize='large' color="action"/></div>  <input className=' outline-2  items-end  md:px-28 p-1 -mt-1 text-center rounded-md  w-full' type="search" name="" placeholder='Search book'/> <div className=" absolute top-1" > </div> </div>
+            
+          </div>
+
           {mobileState?
             (
-              
           <div className='md:hidden text-xl '>
             <hr/>
             <a className='flex justify-center hover:bg-black' href="">Contact us</a>
