@@ -27,7 +27,7 @@ function Navigation() {
             </div>
           </div>
           
-    	    <div class="">
+    	    <div className=''>
             <hr/>
           <div className='md:hidden flex justify-center items-center px-16 py-2'><div className=' absolute hidden md:flex'><SearchIcon fontSize='large' color="action"/></div>  <input className=' outline-2  items-end  md:px-28 p-1 -mt-1 text-center rounded-md  w-full' type="search" name="" placeholder='Search book'/> <div className=" absolute top-1" > </div> </div>
             
